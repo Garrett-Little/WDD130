@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Inter:wght@300&display=swap');
+/**--heading-font: "Croissant One";
+--paragraph-font: Inter, Helvetica, sans-serif;**/
+
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +11,17 @@
 nav a{
     text-align: center;
     text-decoration: none;
+    color: #90E0EF;
+    padding: 35px;
+}
+
+nav a:hover {
+color: white;
+background-color:#48CAE4 ;
+#logo_link {
+    padding-top: 5px;
+}
+
 }
 
 #hero-msg h1, #hero-msg h4{
@@ -20,32 +36,68 @@ main section{
     text-align: center;
 }
 
+main section img{
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: #0077b6;
+    font-size: 22px;
 }
 
 body{
     background-color: #0077b6;
+    font-family: Inter, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin: 0;
 }
 header{
     background-color: #0077b6;
 }
-nav a:hover{
-    background-color: #0077b6;
-}
+
 .book, .join{
     background-color: #0077b6;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #0077b6;
 }
 .msg{
     background-color: #0077b6;
+    padding: 35px;
+
+}
+
+.msg p{
+    padding-bottom: 15px;
+}
+
+.card-img{
+    border: 10px solid black;
+}
+.rivers-card{
+    margin: 200px 0;
+}
+
+.camping-card{
+    margin: 200px 0;
+}
+
+.rapids-card{
+    margin: 200px 0;
 }
 footer{
     background-color: #0077b6;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a{
@@ -57,13 +109,25 @@ footer p {
 }    
       
 footer p a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }    
+
+footer .social img{
+    padding-top: 15px;
+}
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo{
     width: 80px;
+   padding-bottom: 30px;
+}
+
+.home-title {
+    font-family: "Croissant One";
+    font-size: 2em;
+    margin-top: 10px;
 }
